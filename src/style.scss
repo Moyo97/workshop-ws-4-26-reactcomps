@@ -1,5 +1,18 @@
 .logo {
-  height: 32px;
-  background: rgba(255,255,255,.2);
-  margin: 16px;
+ height: 32px;
+ background: rgba(255,255,255,.2);
+ margin: 16px;
+}
+.ant-carousel .slick-slide {
+ padding-top: 33vh;
+ background-image: url(./img/golden.gif);
+ text-align: center;
+ height: 70vh;
+ line-height: 100%;
+ overflow: hidden;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.ant-carousel .slick-slide h3 {
+ color: #fff;
 }
